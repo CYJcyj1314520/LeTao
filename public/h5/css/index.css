@@ -1,0 +1,135 @@
+/*导航*/
+.lt_nav{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.lt_nav a{
+    width: 33.3333%;
+   float: left;
+    padding-bottom: 5px;
+}
+.lt_nav a img{
+    width: 100%;
+    display: block;
+}
+/*活动*/
+.lt_active{
+    width: 100%;
+    padding: 0 10px;
+}
+.lt_active a {
+    padding-bottom: 5px;
+}
+.lt_active .lt_active_01{
+    padding-bottom: 0;
+}
+.lt_active .lt_active_01,.lt_active .lt_active_02{
+    width: 66.666%;
+    float: left;
+}
+.lt_active .lt_active_03{
+    width: 32.9%;
+    float: right;
+}
+.lt_active .lt_active_01 img{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.lt_active .lt_active_02 img{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.lt_active .lt_active_03 img{
+    display: block;
+    width: 100%;
+}
+/*品牌*/
+.lt_brand{
+    width: 100%;
+    padding: 0 10px;
+}
+.lt_brand .lt_brand_title{
+    width: 100%;
+}
+.lt_brand .lt_brand_title a{
+    display: block;
+    width: 100%;
+}
+.lt_brand .lt_brand_title a img{
+    width: 100%;
+    display: block;
+}
+.lt_brand ul{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.lt_brand ul li{
+    width: 25%;
+    float: left;
+}
+.lt_brand ul li a{
+    width: 100%;
+    display: block;
+}
+.lt_brand ul li a img{
+    display: block;
+    width: 100%;
+}
+.lt_brand_title_02{
+    width: 100%;
+}
+.lt_brand_title_02 a{
+    display: block;
+    width: 100%;
+}
+.lt_brand_title_02 a img{
+    display: block;
+    width: 100%;
+}
+/*商品*/
+.lt_product{
+    width: 100%;
+    padding: 0 10px;
+}
+.lt_product .lt_product_box{
+    width: 48%;
+    float: left;
+    margin-top: 10px;
+}
+.lt_product .lt_product_box:nth-child(2n){
+    margin-left: 4%;
+}
+.lt_product .lt_product_box .lt_product_box_item{
+    display: block;
+    width: 100%;
+    min-height: 200px;
+    box-shadow: 0 0 6px #ddd;
+    padding: 10px 0;
+    text-align: center;
+}
+.lt_product .lt_product_box .lt_product_box_item img{
+    width: 100%;
+    display: block;
+}
+.lt_product .lt_product_box .lt_product_box_item p:last-of-type{
+    font-size: 12px;
+    text-align: center;
+}
+.lt_product .lt_product_box .lt_product_box_item .nowprice{
+    color: red;
+    margin-right:10px;
+}
+.lt_product .lt_product_box .lt_product_box_item .oldprice{
+    text-decoration: line-through;
+}
+.lt_product .lt_product_box .lt_product_box_item button{
+    background: #336699;
+    color: #fff;
+
+}
+
